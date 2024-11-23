@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -262,6 +265,9 @@ blockquote {
 }
 blockquote p {
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
 #page_header {
   position: relative;
