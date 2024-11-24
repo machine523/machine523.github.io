@@ -1,3 +1,20 @@
 a {
   text-decoration: none;
 }
+body {
+  color: #000; /* 设置正文颜色 */
+}
+h1,
+h2,
+h3 {
+  color: #0056b3; /* 设置标题颜色为蓝色 */
+}
+a {
+  color: #ff5722; /* 设置链接颜色为橙色 */
+}
+a:hover {
+  color: #d84315; /* 鼠标悬停时改变链接颜色 */
+}
+body {
+  background-color: #fff; /* 白色，80%不透明 */
+}

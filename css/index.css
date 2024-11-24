@@ -1,6 +1,23 @@
 a {
   text-decoration: none;
 }
+body {
+  color: #000; /* 设置正文颜色 */
+}
+h1,
+h2,
+h3 {
+  color: #0056b3; /* 设置标题颜色为蓝色 */
+}
+a {
+  color: #ff5722; /* 设置链接颜色为橙色 */
+}
+a:hover {
+  color: #d84315; /* 鼠标悬停时改变链接颜色 */
+}
+body {
+  background-color: #fff; /* 白色，80%不透明 */
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -295,7 +312,7 @@ a {
   display: block;
   margin: 0 1.6rem;
   padding: 0.8rem 0;
-  color: #7a8288;
+  color: #370cc6;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
@@ -346,7 +363,7 @@ a {
   }
   .menus_items li a {
     display: block;
-    color: #7a8288;
+    color: #fff;
     font-size: 1.6rem;
     margin: 0px;
     padding: 8px 15px;
@@ -361,8 +378,8 @@ a {
   top: 22px;
   height: 30px;
   width: 30px;
-  background-color: #7a8288;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   cursor: pointer;
   padding: 0px 0.3rem;
   border-width: 0px;
@@ -410,7 +427,7 @@ a {
     left: 0;
     bottom: 0;
     height: 4px;
-    background: #bdc1c4;
+    background: #000;
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -419,7 +436,7 @@ a {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #5c6266;
+    color: #02e0a6;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -469,7 +486,7 @@ a {
   font-size: 1.8rem;
 }
 .page article a {
-  color: #494e52;
+  color: #000;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -480,15 +497,15 @@ a {
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #f8f8f8;
-  color: #525252;
+  background: #fff;
+  color: #000;
   line-height: 20px;
 }
 .page article .gutter pre {
   padding-right: 0.8rem;
   padding-left: 0.7rem;
-  background-color: #f8f8f8;
-  color: #cfd8dc;
+  background-color: #fff;
+  color: #000;
   text-align: right;
 }
 .page article code {
